@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.tg.demobank",
+    "package_name": "com.tg.demobank.ithmar.develop",
     "sha256_cert_fingerprints":
     ["FA:31:5E:2A:68:6F:F2:86:1A:B0:8D:DA:F0:D0:88:E5:C1:84:BA:23:30:56:23:BF:0C:08:FB:A3:48:02:3B:BF"]
   }
@@ -11,15 +11,41 @@
   "relation": ["delegate_permission/common.get_login_creds"],
   "target": {
     "namespace": "web",
-    "site": "https://AtulTaraButgateway.github.io"
+    "site": "https://atultarabutgateway.github.io"
   }
 },
 {
   "relation": ["delegate_permission/common.get_login_creds"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.tg.demobank",
+    "package_name": "com.tg.demobank.ithmar.develop",
     "sha256_cert_fingerprints":
     ["FA:31:5E:2A:68:6F:F2:86:1A:B0:8D:DA:F0:D0:88:E5:C1:84:BA:23:30:56:23:BF:0C:08:FB:A3:48:02:3B:BF"]
   }
-}]
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.tg.demobank.demo.develop",
+    "sha256_cert_fingerprints":
+    ["FA:31:5E:2A:68:6F:F2:86:1A:B0:8D:DA:F0:D0:88:E5:C1:84:BA:23:30:56:23:BF:0C:08:FB:A3:48:02:3B:BF"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://atultarabutgateway.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.tg.demobank.demo.develop",
+    "sha256_cert_fingerprints":
+    ["FA:31:5E:2A:68:6F:F2:86:1A:B0:8D:DA:F0:D0:88:E5:C1:84:BA:23:30:56:23:BF:0C:08:FB:A3:48:02:3B:BF"]
+  }
+}
+]
